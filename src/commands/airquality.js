@@ -26,7 +26,6 @@ async function run({ interaction, client }) {
     // หากมีข้อมูล
     if (data) {
 
-        // นำข้อมูลจาก Data
         const { aqi, city, dominentpol, iaqi, time } = data;
 
         // ตรวจสอบมลพิษที่มีค่ามากที่สุด
